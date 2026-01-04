@@ -1,0 +1,25 @@
+.status-dropdown {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.status-dropdown:hover {
+  border-color: #4a90e2;
+}
+
+.status-dropdown:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+}
+
+.status-dropdown option {
+  padding: 8px;
+}
+
